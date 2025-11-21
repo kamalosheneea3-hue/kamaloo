@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Meet Happy - Your Smart Chatbot Companion</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f0f8ff;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+    .container {
+      max-width: 800px;
+      margin: 2rem auto;
+      background: white;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      border-radius: 12px;
+      padding: 2rem;
+    }
+    h1 {
+      color: #009688;
+      text-align: center;
+    }
+    p {
+      line-height: 1.6;
+      font-size: 1.1rem;
+    }
+    ul {
+      margin: 1rem 0 2rem 1.25rem;
+      color: #555;
+    }
+    ul li {
+      margin-bottom: 0.75rem;
+    }
+    .features {
+      background: #e0f7fa;
+      padding: 1.5rem;
+      border-radius: 10px;
+      margin-top: 2rem;
+    }
+    .cta {
+      display: block;
+      text-align: center;
+      margin-top: 2.5rem;
+    }
+    .btn {
+      padding: 0.75rem 2rem;
+      background-color: #009688;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-weight: bold;
+      font-size: 1.2rem;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      text-decoration: none;
+    }
+    .btn:hover {
+      background-color: #00796b;
+    }
+  </style>
+</head>
+<body>
+  <div class="container" role="main">
+    <h1>Meet Happy: Your Smart Chatbot Companion</h1>
+    <p>Welcome to Happy, the chatbot that’s more than just AI—it’s your intelligent, empathetic assistant designed to understand your mood, needs, and context.</p>
+    
+    <div class="features" aria-label="Chatbot features">
+      <h2>Why Happy is Different</h2>
+      <ul>
+        <li><strong>Advanced Conversational AI:</strong> Understands your intent and emotions for natural conversations.</li>
+        <li><strong>Sentiment Analysis:</strong> Adjusts responses based on how you feel to create a human-like experience.</li>
+        <li><strong>Seamless App Integration:</strong> Connects to your favorite tools and workflows like CRM and databases.</li>
+        <li><strong>Human Agent Handover:</strong> Transfers complex queries to real agents without losing context.</li>
+        <li><strong>Privacy & Security:</strong> Your data is safe with encrypted, confidential protocols.</li>
+      </ul>
+    </div>
+    
+    <p>Transform your digital interactions with Happy—intelligent, joyful, and secure chatbot assistance at your fingertips.</p>
+    <div class="cta">
+      <a href="#get-started" class="btn" role="button" aria-label="Get started with Happy chatbot">Get Started with Happy</a>
+    </div>
+  </div>
+</body>
+</html>
